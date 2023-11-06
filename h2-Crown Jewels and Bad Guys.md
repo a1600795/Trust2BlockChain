@@ -19,3 +19,6 @@ I am not an security expert and for me it is difficult to say how valid the whit
 ## References
 
 Hutchin, E., Cloppert, M., and Amin, R., 2011. Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains. Link: https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf. Read: 6.11.2023
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/82fe46a3-5a81-4751-95bb-d8546fa67e17)
+
