@@ -22,9 +22,9 @@ Hutchin, E., Cloppert, M., and Amin, R., 2011. Intelligence-Driven Computer Netw
 
 ### a) Make-belief boogie-man. Create a treath model for imaginary company
 
-My imaginary company is a pharmaceutical drug lab that creates new medicines. The key assets for this company are the drugs that are currently under development. They are just going to have a breakthrough on a drug that cures lymphona. Based on the test results the drug has worked for 99 percent of the cases and they are preparing to release it after 10 months. The development of the new drug has taken 10 years. It would be catastrophic if the chemistry and preparation process would leak out.
+My imaginary company is a pharmaceutical drug lab that creates new medicines. The key assets for this company are the drugs that are currently under development. They are just going to have a breakthrough on a drug that cures lymphona. Based on the test results the drug has worked for 99 percent of the cases and they are preparing to release it after 10 months. The development of the new drug has taken 11 years. It would be catastrophic if the chemistry and preparation process would leak out.
 
-####Threat model
+###Threat model
 
 
 
