@@ -94,7 +94,7 @@ Cyber kill chain of the incident (Reference: Lockheed Martin, 2023. The Cyber Ki
 7. Actions on objectives
    -  Opening and viewing attached files of support cases
 
-C) Starting a lab.
+### c) Starting a lab
 
 
 
