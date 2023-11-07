@@ -50,7 +50,26 @@ My imaginary company is a pharmaceutical drug lab that creates new medicines. Th
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/edb7beca-8e0c-4ea0-85b3-66e476c2431d)
 
-
+   - Biggest risks are that the threat actor gets access to the database or to the database server
+      + Expected value = 2 x 1 000 000 000 = 2 000 000 000
+      + Monetary value is very high. 11 years of work and the drug companies are constantly contacting them as they want to make a contract with them
+          - Monetary value is one billion
+          - Probability is two on the scale from 1-3
+   - They are targeted all the time by different threat actors
+      + Cyber criminals are using known TTPs (Reference: Exabeam, 2023. What Are TTPs and How Understanding Them Can Help Prevent the Next Incident. Link: https://www.exabeam.com/explainers/mitre-attck/what-are-ttps-and-how-understanding-them-can-help-prevent-the-next-incident/. Read: 7.11.2023.
+         - They try to gain unauthorized access by findin a backdoor (Tactical)
+         - They try to compromise the website the application is hosted (Tactical)
+         - They try to find a way for SQL injection (Technical)
+         - They have scanned the website of the application for backdoors and SQL injections (Procedure)
+   - What are we going to do about it
+      + Reducing the attack surface and limiting
+         - IP restriction for the website of the application
+            + Access only from the intranet of the research lab or remotely from home through VPN
+         - Traffic between the webserver and database server only in private intranet of the datacenter
+   - Did we do a good job
+      + Preventing public access to the website has reduced attacks
+      + Regular security audits has has reduced the gaps in processes and policies
+      + Pentest has identified loopholes in the application and they have been corrected
    - Bad guys get access to one of the researchers personal email and they found out he is participating in remarkable research project
    - After monitoring his personal email the researcher send an email from his work email account to his personal email account
    - After this the bad guys target his work email account and after a while they get access in to it
