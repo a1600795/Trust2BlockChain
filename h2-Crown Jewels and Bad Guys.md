@@ -1,4 +1,4 @@
-# h2 Crown Jewels and Bad Guys
+ # h2 Crown Jewels and Bad Guys
 
 x) Summarize Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains.
 
@@ -96,6 +96,17 @@ Cyber kill chain of the incident (Reference: Lockheed Martin, 2023. The Cyber Ki
 
 ### c) Starting a lab
 
+1. I downloaded the debian iso image
+2. I installed virtualbox
+3. Creating virtual machine - instructions are different from the version I am using
+   ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/5c5fbbe9-3a13-49d1-99ec-ca494185d569)
+
+   ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/2da28aad-a7b9-4524-974f-7463fe77dd48)
+
+   ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/98c64eec-fc4a-4d1c-ac3d-44630555e942)
+
+   ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/e57bb9ee-66bc-4e34-b7d1-52e36c2bf6e6)
+4. Finish
 
 
 
