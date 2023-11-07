@@ -24,7 +24,7 @@ Hutchin, E., Cloppert, M., and Amin, R., 2011. Intelligence-Driven Computer Netw
 
 My imaginary company is a pharmaceutical drug lab that creates new medicines. The key assets for this company are the drugs that are currently under development. They are just going to have a breakthrough on a drug that cures lymphona. Based on the test results the drug has worked for 99 percent of the cases and they are preparing to release it after 10 months. The development of the new drug has taken 11 years. It would be catastrophic if the chemistry and preparation process would leak out.
 
-#### Threat modeling (Reference Karvinen, T., 2023. Trust to Blockchain 2023 autumn / h2 Crown Jewels and Bad Guys. Link: https://terokarvinen.com/2023/trust-to-blockchain/. Read 7.11.2023
+#### Threat modeling (Reference: Karvinen, T., 2023. Trust to Blockchain 2023 autumn / h2 Crown Jewels and Bad Guys. Link: https://terokarvinen.com/2023/trust-to-blockchain/. Read 7.11.2023
 
 1) What are we working on:
    - Our Assets
@@ -32,10 +32,34 @@ My imaginary company is a pharmaceutical drug lab that creates new medicines. Th
    -  Security supports business
       + This is a small pharmaceutical drug lab and all of it's IT services are outsourced
    - Diagram of the company systems below
+     
    ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/72a0429d-ffc1-425a-8c25-c1937a024c5b)
 
-  
+   - Description of the diagram
+     + All the systems in use are accessed through public internet and they have Azure AD multi factor authentication.
+     + The servers are located in the outsourcing partners datacenter
+     + Traffic to and from the environment goes through firewall and loadbalancer
+     + All the servers are antivirus protected
+     + System A is the research management system and all the crown yewels are in system A
+     + Security patching is done regularly
+     + Servers os is always on supported version
 
+2) What can go wrong
+   - Bad guys want to get access to the data of the almost finished research project where the cure for lymphona is discovered
+   - Attack tree (Reference: Schneier, B., 1999. Schneier on Security. Link: https://www.schneier.com/academic/archives/1999/12/attack_trees.html. Read: 7.11.2023.
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/edb7beca-8e0c-4ea0-85b3-66e476c2431d)
+
+
+   - Bad guys get access to one of the researchers personal email and they found out he is participating in remarkable research project
+   - After monitoring his personal email the researcher send an email from his work email account to his personal email account
+   - After this the bad guys target his work email account and after a while they get access in to it
+   - After monitoring his work email account they found out what this remarkable project is and that it is most likely going to be succesful
+   - After this they research what is the company offering them IT services
+   - After this they attack the companys datacenter
+   - After this they wait long enough to get the user id and password for an admin account leveled up enough, so they can get admin access to the database servers
+   - After this they copy all the data from the research management system and lock the database server with a password
+   - Then the blackmailing begins
 
 
 
