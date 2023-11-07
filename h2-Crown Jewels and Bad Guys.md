@@ -107,6 +107,10 @@ Cyber kill chain of the incident (Reference: Lockheed Martin, 2023. The Cyber Ki
 
    ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/e57bb9ee-66bc-4e34-b7d1-52e36c2bf6e6)
 4. Finish
+5. Virtualbox manage appeard on the left
+6. Skipping insert ISO part as I did it already as described above
+   ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/7e4fee69-6ff4-44b8-81cc-094cb6e8aeb5)
+
 
 
 
