@@ -61,15 +61,39 @@ My imaginary company is a pharmaceutical drug lab that creates new medicines. Th
          - They try to compromise the website the application is hosted (Tactical)
          - They try to find a way for SQL injection (Technical)
          - They have scanned the website of the application for backdoors and SQL injections (Procedure)
-   - What are we going to do about it
+   4) What are we going to do about it
       + Reducing the attack surface and limiting
          - IP restriction for the website of the application
             + Access only from the intranet of the research lab or remotely from home through VPN
          - Traffic between the webserver and database server only in private intranet of the datacenter
-   - Did we do a good job
+   5) Did we do a good job
       + Preventing public access to the website has reduced attacks
       + Regular security audits has has reduced the gaps in processes and policies
       + Pentest has identified loopholes in the application and they have been corrected
+
+### b) Incident analyses
+
+My incident analysis is about Okta hack. In this security incident the employee was logged in to his personal Google account on his company laptop Chrome browser and stored the password he used in to that Google account. Then this Google account got hacked. (Reference: Bradbury, D., 2023. Unauthorized Access to Okta's Support Case Management System: Root Cause and Remediation. Link: https://sec.okta.com/harfiles. Read: 7.11.2023.
+
+In this case a threat actor got unauthorized access to files inside Okta's customer support system. Part of the files were HAR files and the criminals used these files to hijack five Okta sessions with customers. Also the criminal got access to service account what credentials were also saved to employee's personal Google account. With the service account they got access to view and update customer support cases. The security breach went on for 14 days.
+
+Cyber kill chain of the incident (Reference: Lockheed Martin, 2023. The Cyber Kill Chain. Link: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html. Read: 7.11.2023.
+
+1. Reconnaissance
+   - Harvesting the content of the hacked employees personal Google account
+2. Weaponization
+   - Finding the saved credentials for Okta service account
+3. Delivery
+   - Logging in to Okta support system
+4. Exploitation
+   - Getting access to HAR files
+5. Installation
+   - Hijacking with the HAR files legitimate Okta sessions of 5 customers
+6. Command and control
+   - Full access to support cases
+7. Actions on objectives
+   -  Opening and viewing attached files of support cases
+
    - Bad guys get access to one of the researchers personal email and they found out he is participating in remarkable research project
    - After monitoring his personal email the researcher send an email from his work email account to his personal email account
    - After this the bad guys target his work email account and after a while they get access in to it
