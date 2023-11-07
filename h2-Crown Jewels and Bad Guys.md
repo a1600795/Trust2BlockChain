@@ -24,8 +24,17 @@ Hutchin, E., Cloppert, M., and Amin, R., 2011. Intelligence-Driven Computer Netw
 
 My imaginary company is a pharmaceutical drug lab that creates new medicines. The key assets for this company are the drugs that are currently under development. They are just going to have a breakthrough on a drug that cures lymphona. Based on the test results the drug has worked for 99 percent of the cases and they are preparing to release it after 10 months. The development of the new drug has taken 11 years. It would be catastrophic if the chemistry and preparation process would leak out.
 
-#### Threat model (Reference Karvinen, T., 2023. Trust to Blockchain 2023 autumn / h2 Crown Jewels and Bad Guys. Link:https://terokarvinen.com/2023/trust-to-blockchain/. Read 7.11.2023
+#### Threat modeling (Reference Karvinen, T., 2023. Trust to Blockchain 2023 autumn / h2 Crown Jewels and Bad Guys. Link: https://terokarvinen.com/2023/trust-to-blockchain/. Read 7.11.2023
 
+1) What are we working on:
+   - Our Assets
+      + Pharmaceutical drug development and research
+   -  Security supports business
+      + This is a small pharmaceutical drug lab and all of it's IT services are outsourced
+   - Diagram of the company systems below
+   ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/72a0429d-ffc1-425a-8c25-c1937a024c5b)
+
+  
 
 
 
