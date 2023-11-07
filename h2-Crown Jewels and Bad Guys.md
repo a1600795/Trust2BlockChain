@@ -94,16 +94,7 @@ Cyber kill chain of the incident (Reference: Lockheed Martin, 2023. The Cyber Ki
 7. Actions on objectives
    -  Opening and viewing attached files of support cases
 
-   - Bad guys get access to one of the researchers personal email and they found out he is participating in remarkable research project
-   - After monitoring his personal email the researcher send an email from his work email account to his personal email account
-   - After this the bad guys target his work email account and after a while they get access in to it
-   - After monitoring his work email account they found out what this remarkable project is and that it is most likely going to be succesful
-   - After this they research what is the company offering them IT services
-   - After this they attack the companys datacenter
-   - After this they wait long enough to get the user id and password for an admin account leveled up enough, so they can get admin access to the database servers
-   - After this they copy all the data from the research management system and lock the database server with a password
-   - Then the blackmailing begins
-
+C) Starting a lab.
 
 
 
