@@ -99,6 +99,7 @@ Cyber kill chain of the incident (Reference: Lockheed Martin, 2023. The Cyber Ki
 1. I downloaded the debian iso image
 2. I installed virtualbox
 3. Creating virtual machine - instructions are different from the version I am using
+4. In the ISO image I put the Debian ISO as seen in picture below
    ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/5c5fbbe9-3a13-49d1-99ec-ca494185d569)
 
    ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/2da28aad-a7b9-4524-974f-7463fe77dd48)
@@ -106,11 +107,15 @@ Cyber kill chain of the incident (Reference: Lockheed Martin, 2023. The Cyber Ki
    ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/98c64eec-fc4a-4d1c-ac3d-44630555e942)
 
    ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/e57bb9ee-66bc-4e34-b7d1-52e36c2bf6e6)
-4. Finish
-5. Virtualbox manage appeard on the left
-6. Skipping insert ISO part as I did it already as described above
+5. Finish
+6. Virtualbox manager appearrd on the left
+7. Skipping insert ISO part as I did it already as described above
    ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/7e4fee69-6ff4-44b8-81cc-094cb6e8aeb5)
 
-
+8. Boot menu is different than in Teros instructions. It doesn't give me the kernel option. I choose the first one "Live system (amd64)
+   ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/11c234c0-6bb5-43c1-b76e-30b9b27b8fc7)
+9. It opens same desktop as in Tero's intructions. I test the browser and navigate to Tero's homepage. Everything works.
+10. I started to install the debian as intructed. It gave me warning about untrusted application launcher. I launched it anyway.
+11. Run the Installer - and Use a Good Password section worked as instructed
 
 
