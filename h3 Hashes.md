@@ -43,5 +43,8 @@ e) Try cracking this hash and comment on your hash rate $2y$18$axMtQ4N8j/NQVItQJ
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/5573880f-2518-4030-91cb-4822b25c7d27)
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/267035f4-1e0c-447a-9bc0-1deb5b10ce6e)
 
+Time estimated 7 years, 258 days
+
+
 
  
