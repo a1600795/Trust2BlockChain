@@ -9,3 +9,14 @@ These technologies are used in multiple different purposes e.g., verifying the d
 
 Of course there is also threat factors who try to attack against these kind of security practises with bad intentions. This is why there are also hardened techniques to prevent threat factors replacing your public keys with their public keys. If this would happen the legitimate receiver would send the replaced public key to the sender and without the possibility to dcrypt the message after receiving it. In this case only the threat factor can open the message. To avoid this the public key can be signed by the private key and then the owner of the public key can be verified by using Key Distribution Center. 
 
+##### a)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/2f71ecf1-2775-4aeb-a584-822aab898aea)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/598ee3e2-9e73-4b8c-b5c4-d289436da1d3)
+
+To get sha256 to start with 0 I needed to go to google. I couldn't find any direct instructions, but after I found this: $ echo -n "351" | sha1sum I just tried $ echo -n "351" | sha256sum and there it was
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/c607876a-13dd-4875-aadf-4546f7ba49fe)
+Reference: https://stackoverflow.com/questions/3180374/can-an-md5-hash-begin-with-a-zero
+
