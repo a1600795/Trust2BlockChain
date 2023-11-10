@@ -9,7 +9,7 @@ These technologies are used in multiple different purposes e.g., verifying the d
 
 Of course there is also threat factors who try to attack against these kind of security practises with bad intentions. This is why there are also hardened techniques to prevent threat factors replacing your public keys with their public keys. If this would happen the legitimate receiver would send the replaced public key to the sender and without the possibility to dcrypt the message after receiving it. In this case only the threat factor can open the message. To avoid this the public key can be signed by the private key and then the owner of the public key can be verified by using Key Distribution Center. 
 
-##### a)
+##### a) Billion dollar busywork
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/2f71ecf1-2775-4aeb-a584-822aab898aea)
 
@@ -20,3 +20,25 @@ To get sha256 to start with 0 I needed to go to google. I couldn't find any dire
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/c607876a-13dd-4875-aadf-4546f7ba49fe)
 Reference: https://stackoverflow.com/questions/3180374/can-an-md5-hash-begin-with-a-zero
 
+#### b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
+
+Hash changes
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/73ff9dcc-c0d5-4943-9d52-9a97e44909e6)
+
+#### c) Install hashcat and test that it works.
+
+Installed before started these in chapter x)
+
+#### d) Crack this hash: 21232f297a57a5a743894a0e4a801fc3
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/c3044481-e778-4961-a936-bd61bc71c9ff)
+
+Trying with MD5
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/35369d8d-ebae-4f0c-b4e4-de140ae7a502)
+
+e) Try cracking this hash and comment on your hash rate $2y$18$axMtQ4N8j/NQVItQJed9uORfsUK667RAWfycwFMtDBD6zAo1Se2eu . This subtask d does not require actually cracking the hash, just trying it and commenting on the hash rate.
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/96a93390-c3a0-47f1-9877-486cfce800ef)
+
+ 
