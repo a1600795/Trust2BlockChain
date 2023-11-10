@@ -1,1 +1,11 @@
-# Assignment h3 Hashes
+# h3 Hashes
+#### x) Read and summarize (with some bullet points)
+
+The Protocols are the trust factors behind the transactions. Typically a protocol contains cryptographic algorithm to avoid exploitation, but usually they are used in everyday activities without the users even realizing the protocols behind the actions. In general there are three types of protocols arbitrated, adjucicated and self-enforcing. Arbitrated is a protocol where every transaction is verified by a third party (arbitrator) and adjucicated is where only the unclear transactions are verified by third party (adjucicator). The self-enforcing protocol is as the name says verifying the transactions by itself and no third party arbitrator is required. Self-enforcing protocols are categorized as best types of protocols.
+
+When using the symmetric cryptography the communication is encrypted and can only be opened by a key. All the security is in the key and none in the algorithm. The key must remain secret as long as the communication must remain secret, because if the key is public, anyone can use it to open the message. There is also a public key cryptography where the other key is private and the other public. The public key is used to encrypt the message and private key is used to decrypt the message. In this kind of communication the sender uses the receivers public key and in idealistic world only the legitimate receiver of the message has the private key to open the message.
+
+These technologies are used in multiple different purposes e.g., verifying the digital signature belongs to the legitimate signatory. 
+
+Of course there is also threat factors who try to attack against these kind of security practises with bad intentions. This is why there are also hardened techniques to prevent threat factors replacing your public keys with their public keys. If this would happen the legitimate receiver would send the replaced public key to the sender and without the possibility to dcrypt the message after receiving it. In this case only the threat factor can open the message. To avoid this the public key can be signed by the private key and then the owner of the public key can be verified by using Key Distribution Center. 
+
