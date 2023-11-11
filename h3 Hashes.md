@@ -45,6 +45,14 @@ e) Try cracking this hash and comment on your hash rate $2y$18$axMtQ4N8j/NQVItQJ
 
 Time estimated 7 years, 258 days
 
+#### n) Voluntary bonus: create some hashes of your own, then crack them with hashcat.
+
+Generating a SHA-256 hash from the Linux command line (Reference: https://stackoverflow.com/questions/3358420/generating-a-sha-256-hash-from-the-linux-command-line)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/162e7c92-64aa-4da1-8412-5aec6566850f)
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/4a3ea467-ae00-4a92-85f0-5d26a2a5160b)
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/dd89ee94-cef7-4976-a4b0-ab784b423582)
+
 
 
  
