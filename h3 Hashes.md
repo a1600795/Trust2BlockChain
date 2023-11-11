@@ -15,10 +15,9 @@ Of course there is also threat factors who try to attack against these kind of s
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/598ee3e2-9e73-4b8c-b5c4-d289436da1d3)
 
-To get sha256 to start with zero I needed to go to google. I couldn't find any direct instructions, but after I found this: $ echo -n "351" | sha1sum. I just tried $ echo -n "351" | sha256sum. And there it was!
+To get sha256 to start with zero I needed to go to google. I couldn't find any direct instructions, but after I found this: $ echo -n "351" | sha1sum. I just tried $ echo -n "351" | sha256sum. And there it was! (Reference: https://stackoverflow.com/questions/3180374/can-an-md5-hash-begin-with-a-zero)
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/c607876a-13dd-4875-aadf-4546f7ba49fe)
-Reference: https://stackoverflow.com/questions/3180374/can-an-md5-hash-begin-with-a-zero
 
 #### b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
 
