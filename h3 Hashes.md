@@ -21,8 +21,9 @@ To get sha256 to start with zero I needed to go to google. I couldn't find any d
 
 #### b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
 
-Hash changes
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/73ff9dcc-c0d5-4943-9d52-9a97e44909e6)
+
+Hash changes
 
 #### c) Install hashcat and test that it works.
 
