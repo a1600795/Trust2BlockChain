@@ -1,14 +1,30 @@
 # h4 pubkey
 
-### x) Read and summarize (with some bullet points)
+## x) Read and summarize (with some bullet points)
 
-#### Summary of Schneier, B, 1996. Applied Cryptography: Protocols, Algorithms and Source Code in C. Chapers 2.5-2.8. John Wiley & Sons, Inc. Read: 19.11.2023.
+### Summary of Schneier, B, 1996. Applied Cryptography: Protocols, Algorithms and Source Code in C. Chapers 2.5-2.8. John Wiley & Sons, Inc. Read: 19.11.2023.
 
-##### 2.5 COMMUNICATIONS USING PUBLIC-KEY CRYPTOGRAPHY
+#### 2.5 COMMUNICATIONS USING PUBLIC-KEY CRYPTOGRAPHY
 
 Schneier is explaining the principles, advantages and disadvantages of public-key cryptography. Disadvantages for it are that it is slow compared to symmetric algorithms and it is vulnerable to chosen-plaintext attacks. Advantages it has that it is practical and simple to use e.g., in secured messaging. In secured messaging there are two keys, public and private. The sender has the receivers public key and sender encrypts the message with the public key. The encrypted message can only be decrypted with it's pair private key and the receiver is the only one who has the private key. In this way only the receiver can decrypt the message. To add one more layer of security, it is recommended in this kind of messaging to generate the key pair only for this single messaging and delete the private and public keys after they are not needed anymore.
 
-##### 2.6 DIGITAL SIGNATURES
+#### 2.6 DIGITAL SIGNATURES
+
+There are different models for digital signatures. Documents can be signed wih Symmetric Cryptosystems and an arbitrator. In this model a trusted arbitrator is used in the middle and the arbitrator verifies all the messages from the participants are legit. This is very powerful digital and basically unforgeable signing. The only problem with these is that it is very time-consuming to arbitrator as everything goes through him. 
+
+One other model is signing documents with public-key cryptography. This works pretty much in same way as in messaging, that was explained in previous chapter. With digital signing the key pair is used for signature. First the other party sends public key to the other one and then signs the document using his own private key. After signing it the documet is sent to other party and it can be opened and signed with the public key sent earlier. No one else can decrypt the document than the legit party as the the correct key pair is required.
+
+Also documents can be signed using public-key cryptography and one way hash functions. In this model there is only a certain hash that is signed instead of the whole document. Otherwise it works in a similar way as signing with public-key cryptography where the correct key pair is required for signing process. This is much faster than signing the whole document as in public-key cryptography.
+
+#### 2.7 DIGITAL SIGNATURES WITH ENCRYPTION
+
+The best practise is to sign the document before encrypting. This has couple of key points. Encryption before signing migh cause legal dispute as the the text to be signed is not visible when signing and there are also cryptanalytic attacks against this technique. It is also recommended to use different key pair for signature and encryption of the document. This way the document encryption key can be provided e.g., to police without revealing also the signature key. Timestamps for signature are also a mandatory as it prevent the reuse of the signed document.
+
+#### 2.8 RANDOM AND PSEUDO-RANDOM-SEQUENCE GENERATION
+
+Random-number generators have lots of issues. The main problem is that the result is not random as purely random sequences are impossible to generate on a computer and if you run the same input again it generates the same result every time. Then there are also pseudo-random-sequence generator. These are better, but only when the sequence period is long enough and the whole length is actually used. This means that if a sequence of million is required the generator has to generate the whole length and not e.g., sixteen thousand and after sixteen thousand it repeats the next sixteen thousand as long as the end result is million. 
+
+To classify a random sequence to real random sequence the result cannot be reliably reproduced. 
 
 ### a) Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system. (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
 
