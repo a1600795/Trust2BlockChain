@@ -26,6 +26,14 @@ Random-number generators have lots of issues. The main problem is that the resul
 
 To classify a random sequence to real random sequence the result cannot be reliably reproduced. When same input is entered multiple times it doesn't generate same result. The results will be random sequences with no correlation.
 
+### Summary of Rosenbaum, K. 2019. Grokking Bitcoin. Manning Publications. Chapter 2. Cryptographic hash functions and digital signatures. Read: 19.11.2023.
+
+#### Chapter 2. Cryptographic hash functions and digital signatures
+
+Cryptographic hashes are the cornerstone of Bitcoin and key element to understand Bitcoin's functionalities. Cryptographic has work as a fingerprint for digital information and the one Bitcoin most commonly uses is Secure Hash Algorithm with 256-bit output or SHA256. SHA256 can be used to validate changes for example, as the same data will always produce same hash. If you have data you can generate a hash from it and after the data is changed you can generate a new hash from it and the hash will be different from the previous one.
+
+
+
 ### a) Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system. (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
 
 Public key cryptography is a common encryption method. For example Hypertext Transfer Protocol Secure or HTTPS is used to secure data transfer between the web browser and website. The encryption protocol for HTTPS is Transport Layer Security (TLS) and it is based on asymmetric public key infrastructure. HTTPS websites have public keys that are available for visitors of the website. The public key encrypts all the data submitted on the website and sent to the web server. The web server has the private key which is used to decrypt received data. It is recommended to use websites only with HTTPS, especially if sensitive information such as credentials is required. HTTPS prevents sniffing and on-path attacks. (Reference: Cloudflare, 2023. What is HTTPS? Link: https://www.cloudflare.com/learning/ssl/what-is-https/. Read: 18.11.2023.)
