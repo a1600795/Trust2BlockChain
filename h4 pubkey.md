@@ -24,7 +24,7 @@ The best practise is to sign the document before encrypting. This has couple of 
 
 Random-number generators have lots of issues. The main problem is that the result is not random as purely random sequences are impossible to generate on a computer and if you run the same input again it generates the same result every time. Then there are also pseudo-random-sequence generator. These are better, but only when the sequence period is long enough and the whole length is actually used. This means that if a sequence of million is required the generator has to generate the whole length and not e.g., sixteen thousand and after sixteen thousand it repeats the next sixteen thousand as long as the end result is million. 
 
-To classify a random sequence to real random sequence the result cannot be reliably reproduced. 
+To classify a random sequence to real random sequence the result cannot be reliably reproduced. When same input is entered multiple times it doesn't generate same result. The results will be random sequences with no correlation.
 
 ### a) Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system. (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
 
