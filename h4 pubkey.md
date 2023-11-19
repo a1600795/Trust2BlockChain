@@ -2,6 +2,14 @@
 
 ### x) Read and summarize (with some bullet points)
 
+#### Summary of Schneier, B, 1996. Applied Cryptography: Protocols, Algorithms and Source Code in C. Chapers 2.5-2.8. John Wiley & Sons, Inc. Read: 19.11.2023.
+
+##### 2.5 COMMUNICATIONS USING PUBLIC-KEY CRYPTOGRAPHY
+
+Schneier is explaining the principles, advantages and disadvantages of public-key cryptography. Disadvantages for it are that it is slow compared to symmetric algorithms and it is vulnerable to chosen-plaintext attacks. Advantages it has that it is practical and simple to use e.g., in secured messaging. In secured messaging there are two keys, public and private. The sender has the receivers public key and sender encrypts the message with the public key. The encrypted message can only be decrypted with it's pair private key and the receiver is the only one who has the private key. In this way only the receiver can decrypt the message. To add one more layer of security, it is recommended in this kind of messaging to generate the key pair only for this single messaging and delete the private and public keys after they are not needed anymore.
+
+##### 2.6 DIGITAL SIGNATURES
+
 ### a) Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system. (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
 
 Public key cryptography is a common encryption method. For example Hypertext Transfer Protocol Secure or HTTPS is used to secure data transfer between the web browser and website. The encryption protocol for HTTPS is Transport Layer Security (TLS) and it is based on asymmetric public key infrastructure. HTTPS websites have public keys that are available for visitors of the website. The public key encrypts all the data submitted on the website and sent to the web server. The web server has the private key which is used to decrypt received data. It is recommended to use websites only with HTTPS, especially if sensitive information such as credentials is required. HTTPS prevents sniffing and on-path attacks. (Reference: Cloudflare, 2023. What is HTTPS? Link: https://www.cloudflare.com/learning/ssl/what-is-https/. Read: 18.11.2023.)
