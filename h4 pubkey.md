@@ -1,4 +1,4 @@
-# h4 pubkey
+# Assignment h4 pubkey (Karvinen, T., 2023. Trust to Blockchain 2023 autumn. Link: https://terokarvinen.com/2023/trust-to-blockchain/.
 
 ## x) Read and summarize (with some bullet points)
 
