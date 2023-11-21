@@ -47,7 +47,7 @@ Tero's article is about generating a key pair and demonstrating it with two imag
 Public key cryptography is a common encryption method. For example Hypertext Transfer Protocol Secure or HTTPS is used to secure data transfer between the web browser and website. The encryption protocol for HTTPS is Transport Layer Security (TLS) and it is based on asymmetric public key infrastructure. HTTPS websites have public keys that are available for visitors of the website. The public key encrypts all the data submitted on the website and sent to the web server. The web server has the private key which is used to decrypt received data. It is recommended to use websites only with HTTPS, especially if sensitive information such as credentials is required. HTTPS prevents sniffing and on-path attacks. (Reference: Cloudflare, 2023. What is HTTPS? Link: https://www.cloudflare.com/learning/ssl/what-is-https/. Read: 18.11.2023.)
 ### b) Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
 
-Creating directories for my imaginary persons Pedro and Alice for the secret messaging
+Creating directories for my imaginary persons Pedro and Alice for their secret messaging
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/5bf4fb92-bc43-458e-aa06-cefe08e87bb7)
 
@@ -57,7 +57,7 @@ Generating key to Pedro
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/77e59f18-2dcd-4ab5-bdb5-0ad004f6cf6c)
 
-Exporting Pedros key
+Exporting Pedro's key
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/edb90bda-2d8c-4f10-ad63-5aaa4a5ca6be)
 
