@@ -85,7 +85,7 @@ Pedro import and sign Alice's public key
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/a316a4dd-1278-41a4-b62b-fb347344b946)
 
-For some reason I cannot sign it in Pedro's directory, but managed to do it in root directory and trust between bot parties is established
+For some reason I cannot sign it in Pedro's directory, but managed to do it in root directory and trust between both parties is established
 
 Alice encypt and send a secret message
 
