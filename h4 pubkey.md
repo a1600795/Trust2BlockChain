@@ -101,6 +101,28 @@ Pedro decrypts and verifies the message
 
 ### c) Other tool. Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
 
+I used ccencrypt to encrypt and decrypt a message.
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/529fd570-cee3-4cbc-b750-be70c19e599c)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/7fc6b6ac-a3e0-42ac-bade-c2f4ccd7c281)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/19271280-f4fb-465b-a72a-5e8e5da2eefc)
+
+After encryption I tried to open the file, but it only showed me blackscreen as seen below.
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/6b5a909e-849b-4713-8b88-a4a14e0f4b03)
+
+Strange thing was, that it allowed me to open the fiel, as usually they ask the password at this point, but this didn't ask. Only after the separate decryption I could open it normally. As seen below.
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/308f53ef-3c97-4898-ba55-c119f15e906d)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/1df12ad5-2614-475e-a5c0-eb9a424fcc95)
+
+For this part of the assignment I used reference: Tecmint, 2023. 7 Tools to Encrypt/Decrypt and Password Protect Files in Linux. Link: https://www.tecmint.com/linux-password-protect-files-with-encryption/. Read. 21.11.2023.
+
+I wasn't so impressed with this tool. It propably has other functionalities as well and might be a lot more useful, but I just ain't aware of that. For me it was just a tool to make files password protected. Compared to PGP, I couldn't use keypairs and sign to encrypt and verify the message. Just only a password. So would value PGP lot more secure than ccencrypt.
+
 ### d) Eve and Mallory. In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)
 
 Encrypting the message makes it impossible to read it even if it is sent through open internet. Also signing it verifies that the message is really sent by the legit sender and nobody has modified it. With public and private keypairs it is also ensured that the message is coming from the trusted keypair, because otherwise it cannot be opened.
@@ -116,6 +138,8 @@ I saved the password to keypass, but it doesn't allow me to take screenshots, so
 This prevents attacks with one leaked userid and password to different services using the same credentials and just randomly testing them everywhere. Also with password manager it is easy to generate complex password what cannot be cracked so easily with tools like Hashcat.
 
 ### g) Refer to sources. Verify each homework report (this and the earlier ones) refers to sources. Every homework report should refer to this task page. It should also have references to any other source used, such as web pages, LLMs, man pages, other reports... References are mandatory, and must be present in every report. (This subtask does not need a report, you can just do it and write "Done." as the answer for this subtask.)
+
+Done.
 
 ### h) Voluntary, challenging, requires coding: Cryptopals: Challenge Set 1:
 
