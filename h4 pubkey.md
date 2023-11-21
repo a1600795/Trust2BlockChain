@@ -104,6 +104,12 @@ Pedro decrypts and verifies the message
 
 I used ccencrypt to encrypt and decrypt a message.
 
+Installing ccencrypt
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/85350119-e9ba-4dfd-9c27-acef3a8ddd70)
+
+Creating a text to encrypt and decrypt
+
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/529fd570-cee3-4cbc-b750-be70c19e599c)
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/7fc6b6ac-a3e0-42ac-bade-c2f4ccd7c281)
