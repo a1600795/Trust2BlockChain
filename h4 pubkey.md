@@ -45,8 +45,59 @@ Tero's article is about generating a key pair and demonstrating it with two imag
 ### a) Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system. (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
 
 Public key cryptography is a common encryption method. For example Hypertext Transfer Protocol Secure or HTTPS is used to secure data transfer between the web browser and website. The encryption protocol for HTTPS is Transport Layer Security (TLS) and it is based on asymmetric public key infrastructure. HTTPS websites have public keys that are available for visitors of the website. The public key encrypts all the data submitted on the website and sent to the web server. The web server has the private key which is used to decrypt received data. It is recommended to use websites only with HTTPS, especially if sensitive information such as credentials is required. HTTPS prevents sniffing and on-path attacks. (Reference: Cloudflare, 2023. What is HTTPS? Link: https://www.cloudflare.com/learning/ssl/what-is-https/. Read: 18.11.2023.)
-
 ### b) Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
+
+Creating directories for my imaginary persons Pedro and Alice fot the secret messaging
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/5bf4fb92-bc43-458e-aa06-cefe08e87bb7)
+
+Generating key to Pedro
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/5e67d3e5-897c-4c75-aadc-bb2dec383402)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/77e59f18-2dcd-4ab5-bdb5-0ad004f6cf6c)
+
+Exporting Pedros key
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/edb90bda-2d8c-4f10-ad63-5aaa4a5ca6be)
+
+Generating key to Alice
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/d22bb236-cfe4-498c-bf5a-242829c6d795)
+
+cd![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/03d3d98d-f456-413b-8829-cb709800749b)
+
+Alice import and sign Pedro's public key
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/46e8fb18-b881-4a29-bee7-6a3e3dd2bf5a)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/4089b68f-fae1-48e9-b5aa-bcd71e3b1432)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/7f93772c-d204-4bdc-bac6-9d5b9a1feeca)
+
+Pedro import and sign Alice's public key
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/8ba10a83-12b4-4d85-8c11-7ca010ea8c8d)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/9e7006fe-b8dd-457c-b8d8-c278d0254831)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/604cf136-4ff5-4dca-b004-e6d41cb4318a)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/a316a4dd-1278-41a4-b62b-fb347344b946)
+
+For some reason I cannot sign it in Pedro's directory, but managed to do it in root directory and trust between bot parties is established
+
+Alice encypt and send a secret message
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/68b68d76-da37-4647-b0ee-0b33c727682f)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/4b699ad7-d209-4129-b95b-9db21a8f3f2d)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/911d656b-4dfa-4710-b95f-ece77b557fac)
+
+Pedro decrypts and verifies the message
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/da44739b-8309-4bbd-a1d5-378231313305)
 
 ### c) Other tool. Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
 
