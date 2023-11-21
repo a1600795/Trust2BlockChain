@@ -103,7 +103,17 @@ Pedro decrypts and verifies the message
 
 ### d) Eve and Mallory. In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)
 
+Encrypting the message makes it impossible to read it even if it is sent through open internet. Also signing it verifies that the message is really sent by the legit sender and nobody has modified it. With public and private keypairs it is also ensured that the message is coming from the trusted keypair, because otherwise it cannot be opened.
+
 ### f) Password management. Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)
+
+Login to Haaga-Helia Citrix
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/62c98a36-ad44-40fa-af19-5592964b08df)
+
+I saved the password to keypass, but it doesn't allow me to take screenshots, so unfortunately I cannot share my experience with pictures. But to keep it short, it generates and stores passwords for me, so I can use them in various websites. This way I only have to remember one password to keypass instead of all passwords for websites. People are lazy and for this reason many use same password to different services, but with password manager it is easy to use always different password to different services and all you need to remember is the one password for the password manager.
+
+This prevents attacks with one leaked userid and password to different services using the same credentials and just randomly testing them everywhere. Also with password manager it is easy to generate complex password what cannot be cracked so easily with tools like Hashcat.
 
 ### g) Refer to sources. Verify each homework report (this and the earlier ones) refers to sources. Every homework report should refer to this task page. It should also have references to any other source used, such as web pages, LLMs, man pages, other reports... References are mandatory, and must be present in every report. (This subtask does not need a report, you can just do it and write "Done." as the answer for this subtask.)
 
