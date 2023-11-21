@@ -108,13 +108,21 @@ Installing ccencrypt
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/85350119-e9ba-4dfd-9c27-acef3a8ddd70)
 
+sudo apt-get install ccrypt
+
 Creating a text to encrypt and decrypt
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/529fd570-cee3-4cbc-b750-be70c19e599c)
 
+micro test.txt
+
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/7fc6b6ac-a3e0-42ac-bade-c2f4ccd7c281)
 
+Encrypting test.txt
+
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/19271280-f4fb-465b-a72a-5e8e5da2eefc)
+
+ccencrypt test.txt
 
 After encryption I tried to open the file, but it only showed me blackscreen as seen below.
 
@@ -123,6 +131,8 @@ After encryption I tried to open the file, but it only showed me blackscreen as 
 Strange thing was, that it allowed me to open the fiel, as usually they ask the password at this point, but this didn't ask. Only after the separate decryption I could open it normally. As seen below.
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/308f53ef-3c97-4898-ba55-c119f15e906d)
+
+ccdecrypt test.txt
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/1df12ad5-2614-475e-a5c0-eb9a424fcc95)
 
