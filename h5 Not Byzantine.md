@@ -22,6 +22,26 @@ Reference: Karvinen, T., 2023. Trust to Blockchain 2023 autumn. Link: https://te
 - Nodes get incentives from supporting the network
 - Transaction fee is incentive for transactions
 - Incentive for bad guys with enough CPU power to defraud the blockhain is that they get more new bitcoins by staying honest, because the required CPU power could manage all the new transactions  
-- 
+
+### a) Wallet. Create a BitCoin testnet wallet.
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/724b6ce5-3710-44c1-8e69-8b9125e2edb5)
+Installing available updates
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/9925c645-e98e-44b7-aa6c-a492f8f33dbd)
+Searching for bitcoin related tools
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/f0db4bbf-ac33-446c-879e-803314295dc8)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/652a1619-db6c-462f-a680-f425951370f1)
+Running electrum in testnet
+
+### b) Faucet. Get worthless fake money from a testnet Bitcoin faucet.
+
+### c) Giveway. Move money to another Bitcoin wallet. Choose an amount where the last two digists are 42.
+
+### d) Explorer. Use a block explorer to analyze a block on the real Bitcoin blockchain. Explain what each value and field means. You only need to analyze the block information and one sample transaction, as a block can contain many transactions.
+
+### e) Voluntary: Brainiac. Demonstrate how hierarchical deterministic wallet can be regenerated from the bib39 phrase. You can rename the configuration folder to simulate a fresh start. In real life, you would keep the phare away from your computer, but for this simulation, you can copy paste it instead of memorizing.
 - 
 - 
