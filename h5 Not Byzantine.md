@@ -17,7 +17,11 @@ Reference: Karvinen, T., 2023. Trust to Blockchain 2023 autumn. Link: https://te
 - For the timestamp network a nonce in the block are incremented as long as the value starting with required zero bits is found to generate a proof-of-work
 - This way the blocks cannot be changed afterwards
 - The single block cannot be changed, because it needs to be redone and after it has been attached to the chain all the later blocks would also require to be redone
-- 
+- Network of nodes are collecting new transactions to blocks
+- Incentives are used to keep the bitcoin vivid
+- Nodes get incentives from supporting the network
+- Transaction fee is incentive for transactions
+- Incentive for bad guys with enough CPU power to defraud the blockhain is that they get more new bitcoins by staying honest, because the required CPU power could manage all the new transactions  
 - 
 - 
 - 
