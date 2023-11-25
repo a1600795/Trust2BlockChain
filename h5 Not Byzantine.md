@@ -91,9 +91,33 @@ Payment is being processed and waiting it to be confirmed
 
 ### d) Explorer. Use a block explorer to analyze a block on the real Bitcoin blockchain. Explain what each value and field means. You only need to analyze the block information and one sample transaction, as a block can contain many transactions.
 
+I used Blockstream explorer to analyze a block and transaction. (Link: https://blockstream.info/block/0000000000000000000242f76b626811937c51a368a98ece5f845586bd5e66e8?expand) 
 
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/27ac7384-a110-438d-bc35-c291b57bb136)
 
-
+The block I am analysing has these values:
+Height: 818430
+- Height is the number of blocks what have been created before this block (reference: https://www.investopedia.com/terms/b/block-height.asp)
+Status: In best chain (1 confirmation)
+- Status is the status of the block and in this case it means that the block is verified and it is now part of the blockchain (Reference: https://www.bitcoin.com/get-started/what-is-a-confirmation/)
+Timestamp: 2023-11-25 17:15:01 GMT +2
+- Timestamp is the exact date and time when the block was created (Reference: https://www.ledger.com/academy/glossary/timestamp)
+Size: 1514.459 KB
+- Size is the amount of data the block stores (Reference: https://www.bitstamp.net/learn/crypto-101/what-is-block-size/)
+Virtual size: 999 vKB
+- Virtual size is the transaction's size using segwit's rules (Reference: https://bitcoin.stackexchange.com/questions/89385/is-there-a-difference-between-bytes-and-virtual-bytes-vbytes)
+Weight units: 3993.002 KWU
+- Weight units are used after the segwit upgrade to measure the size of transactions and blocks (Reference: https://river.com/learn/terms/w/weight-unit/)
+Version: 0x2000c004
+- Version is the current version of bitcoin and it helps to track changes in the protocol (Reference: https://www.investopedia.com/terms/b/block-header-cryptocurrency.asp)
+Merkle root: 01e28bf31f1d32ce364531fbe2dde6a62127842b2718a3166989c2c937bbcc86
+- Merkle root is the hash from hashing all the individual transaction hashes (Reference: https://www.investopedia.com/terms/m/merkle-root-cryptocurrency.asp)
+Bits: 0x17045a12
+- Bits is a 4-byte field indicating the target difficulty (Reference: https://www.gemini.com/cryptopedia/what-is-block-in-blockchain-bitcoin-block-size)
+Difficulty: 64678587803496
+- Difficulty is the difficulty m,easurement to mine a block (Reference: https://river.com/learn/terms/d/difficulty/)
+Nonce: 0xaacd5201
+- Nonce is a random number miners try to identify to succesfully mine a new block (Reference: https://www.investopedia.com/terms/n/nonce.asp)
 
 ### e) Voluntary: Brainiac. Demonstrate how hierarchical deterministic wallet can be regenerated from the bib39 phrase. You can rename the configuration folder to simulate a fresh start. In real life, you would keep the phare away from your computer, but for this simulation, you can copy paste it instead of memorizing.
 - 
