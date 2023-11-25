@@ -82,7 +82,7 @@ Payment sent
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/ad42f02e-d56a-480c-bdf9-3cf0da242aef)
 
-Payment is being processed and waiting it to be confirmed
+Payment is being processed and waiting to be confirmed
 
 ### d) Explorer. Use a block explorer to analyze a block on the real Bitcoin blockchain. Explain what each value and field means. You only need to analyze the block information and one sample transaction, as a block can contain many transactions.
 
