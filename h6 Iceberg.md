@@ -29,7 +29,32 @@ Quintin 2014: 7 Things You Should Know About Tor
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/f1b26d8a-e817-479f-9edb-aa684fb7e380)
 
-Installing Tor browser for Windowsfrom torproject.org the Tor Project website
+Downloading the Tor browser installer for Windows from torproject.org the Tor Project website
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/8491710a-2085-4aca-9ef5-1d8cdff6cdcc)
+
+Runnin the installer
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/070d3bd0-4ebc-4593-a9eb-f0214b32af75)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/4c4fad71-421e-463a-a003-9613b08ecea5)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/ec65f1da-e5a2-4950-a105-f9617ecce7a5)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/11cfc49e-af61-4f72-b97b-111eb4b3fe3d)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/e1127a8c-7355-46d4-8bff-82679e55c361)
+
+After installation the Tor browser opens
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/5b4a3293-32fc-4bc0-b351-012d4fb48c2c)
+
+After clicking connect it establish connection
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/8d48534d-e77c-4fac-80f4-003a236850b8)
+
+Tor browser is ready and I can start browsing
+
 
 ### b) Browse TOR network, find, take screenshots and comment
 
