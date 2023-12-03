@@ -58,11 +58,84 @@ Tor browser is ready and I can start browsing
 
 ### b) Browse TOR network, find, take screenshots and comment
 
-    search engine for onion sites
-    marketplace
-    fraud
-    forum
-    a well known organization
+#### search engine for onion sites
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/88108c9c-aead-4c5e-9e80-8b69a0366e42)
+
+Switching DuckDuckDoOnion from Tor broser settings
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/f174b192-3f98-43f5-94a2-2e7a6d38bfa4)
+
+Searching for Marketplace. As can be seen in URL. the search is onion site as it ends with .onion, but results are from normal internet
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/25287b44-664e-432f-89d9-5a55abe5fdfe)
+
+After searching for Tor darknet marketplace
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/586a7b29-e0bc-4f08-abb4-80c228d73c53)
+
+I found link to Github darknet repositories
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/d1478770-d16d-43c1-a32d-2874581450fd)
+
+#### marketplace
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/bb69ff8c-0c24-4019-b10d-6819425f2a1b)
+
+From tarpetra/welcome-to-darknet repository I found marketplaces
+
+I went to incognito market
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/cfb1a770-26d7-4bd7-8b3c-dbe38782c775)
+
+First I got Anonguard
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/42415726-b129-4b04-83ef-8dee6744bf89)
+
+Then I needed to choose language
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/e9bbb62c-df64-48db-8501-ed8817de802a)
+
+Then it requested a sign in, but I didn't wanted to do that, so I went back to Github Tarpetra repository and chose Nemesis Market
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/de8e145d-8f46-4e3a-8983-bb19f004d85f)
+
+It wanted to check my browser first
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/6c337bcf-8e33-45b8-9004-bf5ae6d3274b)
+
+There were all kind of illegal narcotics available
+
+#### fraud
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/092ac159-d872-42fc-9d10-2f0a6ecfabd4)
+
+There were also fraud at Nemesis Marketplace
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/a29caf50-2749-46c4-92f3-343ef81a1852)
+
+I hovered the mouse upon it and it gave me a list of available frauds, e.g., Logins/Hacked accounts what I clicked
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/58bd7214-6c68-4b0c-87c1-980a7e1071df)
+
+There were for sale lifetime accounts for e.g., online streaming tv's. Impossible to say if they are legit, but I personally highly doubt that
+
+#### forum
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/2c8d3c6d-c0e7-4854-89ab-629673b12b6c)
+
+Nemesis also has Forum. I clicked that next
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/81d74252-8b45-4a85-ac47-bd05fdf9c299)
+
+Again it wanted to check my browser
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/34f1714b-4097-4e6e-9d19-a8d4b8c8cdc6)
+
+At Forums page there were different topics from fraud to drugs but I wasn't interested in clicking any of them as they all seemed suspicious
+
+#### a well known organization
+
 
 
 
