@@ -136,7 +136,7 @@ At Forums page there were different topics from fraud to drugs but I wasn't inte
 
 #### a well known organization
 
-
+Wasn't completely sure what was supposed with this, but a well known organization operating in Tor is FBI. FBI is actively targeting criminals who are operating or using criminal marketplaces in darknet. (Reference: Farivar, M., 2023. FBI Targets Users in Crackdown on Darknet Marketplaces. Link: https://www.voanews.com/a/fbi-targets-users-in-crackdown-on-darknet-marketplaces/7038559.html. Read: 3.12.2023)
 
 
 ### c) In your own words, how does anonymity work in TOR? (e.g. how does it use: public keys, encryption, what algorithms? This subtask does not require tests with a computer.) 
