@@ -95,9 +95,10 @@ And that worked
 
 I could click on the Title list
 
-![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/d9ad6b56-d38a-42de-9ce4-e263c229e8a0)
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/7b8790e9-3979-4ff2-8da9-97ab0cccd816)
 
 And it went to the NY times page
+
 ## b) Voluntary: Add feeds from Ycombinator Hacker News and Schneier.
 ## c) Voluntary: Find another interesting security related feed.
 ## d) Voluntary: h8 "bonus", if you want
