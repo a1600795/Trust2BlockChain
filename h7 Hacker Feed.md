@@ -100,7 +100,51 @@ I could click on the Title list
 And it went to the NY times page
 
 ## b) Voluntary: Add feeds from Ycombinator Hacker News and Schneier.
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/77568f9b-7f06-473a-9e86-18763b06048e)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/bcc05cf4-6471-4925-9837-510443275949)
+
+But received this
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/6b90810d-2ae0-404c-a0e9-ae2874887876)
+
+Googled it and found this
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/9c5317e6-6db9-42b1-a83a-cfe18068c1d7)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/d5aae032-4c84-407e-b936-5f5eb02d9d01)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/9e4b53e1-1eee-47e2-a826-f7ebfc52a213)
+
+And got it working
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/00452344-27cf-4d82-a054-93e272aff901)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/d5d3b64b-43c4-48a5-88af-efe0d0b35829)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/993f45f9-527e-441d-90c5-584570a5f658)
+
+Schneier worked out great directly. No need for any extra hassle.
+
 ## c) Voluntary: Find another interesting security related feed.
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/66c1b91e-0afb-46d7-93e9-95a3283de8c1)
+
+Googled cybersecurity blog and picked the first one
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/001d6bae-89eb-4d5e-a2c4-142ac37ad2be)
+
+From there I choose IT Security Guru
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/2a618d51-ba62-4fb7-961f-d56c6f32228a)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/e598fe27-3b6f-4089-935d-bacf582cc39e)
+
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/2f0c94f8-55c8-4bfc-bedc-16c9a1660543)
+
+And got it working
+
 ## d) Voluntary: h8 "bonus", if you want
  
  
