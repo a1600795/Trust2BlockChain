@@ -23,7 +23,7 @@
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/9219fde8-df7c-4a5e-bd22-617c873ac87a)
 
-Installing Thunderbird RSS reader from the Thinderbird download page 
+Installing Thunderbird RSS reader from the Thunderbird download page 
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/de12ef7c-027e-42f5-a85b-9d66db7f8ead)
 
@@ -47,7 +47,7 @@ Running the installation wizard and starting the application
 
 Setting it up
 
-![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/6c8a1719-d319-4169-acac-e8956140c234)
+![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/81cbcc93-3ac5-40ed-827f-3a3ba6fac4dc)
 
 Used my Haaga-helia email account, but it requires approval from admin. So I went to virtualbox and installed akregator
 
