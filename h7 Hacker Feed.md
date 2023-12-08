@@ -146,6 +146,8 @@ From there I choose IT Security Guru
 And got it working
 
 ## d) Voluntary: h8 "bonus", if you want
+
+Will do own page for h8
  
  
  
