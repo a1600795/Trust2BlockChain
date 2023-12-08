@@ -15,13 +15,22 @@ Other than that I didn't add anything afterwards as I believe it's kind of cheat
 #### Voluntary tasks I made:
 
 - h3 hashes Link: https://github.com/a1600795/Trust2BlockChain/blob/main/h3%20Hashes.md
+
     n) Voluntary bonus: create some hashes of your own, then crack them with hashcat. 
+
 - h7 Hacker Feed Link: https://github.com/a1600795/Trust2BlockChain/blob/main/h7%20Hacker%20Feed.md
+
     a) Voluntary: Install and test an RSS feed reader.
+
     b) Voluntary: Add feeds from Ycombinator Hacker News and Schneier.
+
     c) Voluntary: Find another interesting security related feed.
+
     d) Voluntary: h8 "bonus", if you want
+
 - h8 bonus Link: https://github.com/a1600795/Trust2BlockChain/blob/main/h8%20bonus.md
+
     a) Updated: List and link tasks where you added substantial updates after cross review.
+
     b) Bonus: List and link voluntary bonus tasks you've completed.
 
