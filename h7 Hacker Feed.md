@@ -49,7 +49,7 @@ Setting it up
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/81cbcc93-3ac5-40ed-827f-3a3ba6fac4dc)
 
-Used my Haaga-helia email account, but it requires approval from admin. So I went to virtualbox and installed akregator
+Used my Haaga-helia email account, but it requires approval from admin.
 
 ![image](https://github.com/a1600795/Trust2BlockChain/assets/149095048/2ae58e4e-2070-4c49-a35b-b6a89f8e2463)
 
