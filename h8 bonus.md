@@ -6,7 +6,7 @@ Assignment h8 bonus. Reference: Karvinen, T. 2023. Trust to Blockchain 2023 autu
 
 ### a) Updated: List and link tasks where you added substantial updates after cross review.
 
-I updated Tero's homepage as reference page for the assignment for the previous assignments where it was missing. But this was a separate task (task g) in assignment h4 public key. 
+I updated Tero's homepage as reference page for the assignment for the previous assignments where it was missing. But this was a separate task in assignment h4 public key (task g). 
 
 Other than that I didn't add anything afterwards as I believe it's kind of cheating. I completed some tasks on my own after I reviewed a classmate's work and saw how it was done properly, but I didn't update any of these activities to Github. So all the tasks I published to Github are genuinely untouched after they were submitted to Laksu.
 
